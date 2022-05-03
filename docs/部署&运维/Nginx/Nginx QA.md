@@ -1,3 +1,13 @@
+---
+title: Nginx QA
+date: 2022-04-17 16:30:18
+permalink: /pages/70186b/
+categories:
+  - 部署&运维
+  - Nginx
+tags:
+  - 
+---
 ## 服务器上部署两套应用，但80端口只有一个，怎么办
 
 ```

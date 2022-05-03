@@ -1,3 +1,12 @@
+---
+title: shell 数学计算
+date: 2022-04-29 18:17:26
+permalink: /pages/4d252d/
+categories:
+  - Shell
+tags:
+  - 
+---
 ## 算数运算符
 ```
 +、-	        加法（或正号）、减法（或负号）

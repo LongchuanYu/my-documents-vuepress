@@ -1,3 +1,12 @@
+---
+title: MySQL添加用户和授权
+date: 2022-04-17 16:30:18
+permalink: /pages/ae3be4/
+categories:
+  - MySql&ORM
+tags:
+  - 
+---
 ## 添加用户
 ```
 本地登录：CREATE USER 'test'@'localhost' IDENTIFIED BY 'xxx';

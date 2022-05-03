@@ -1,3 +1,12 @@
+---
+title: 常用的git alias
+date: 2022-04-17 16:30:18
+permalink: /pages/1d311e/
+categories:
+  - git
+tags:
+  - 
+---
 ## 常用的git alias
 ```
 alias gs='git status'

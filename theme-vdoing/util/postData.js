@@ -106,3 +106,13 @@ export function categoriesAndTags (groupPosts) {
     tags: tagsArr
   }
 }
+
+/**
+ * 
+ * @param {Array} posts 
+ */
+export function hiddenPosts (posts) {
+  return posts.filter(post => {
+    return !(post?.frontmatter?.meta?.length && post?.frontmatter?.meta[0]?.display === false);
+  })
+}

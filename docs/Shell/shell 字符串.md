@@ -1,3 +1,12 @@
+---
+title: shell 字符串
+date: 2022-04-29 18:17:26
+permalink: /pages/5b3ea2/
+categories:
+  - Shell
+tags:
+  - 
+---
 ## 获取字符串长度
 ```
 str="abcdefg"

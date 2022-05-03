@@ -1,3 +1,12 @@
+---
+title: SpringBoot QA
+date: 2022-04-17 16:30:18
+permalink: /pages/3a7e84/
+categories:
+  - SpringBoot
+tags:
+  - 
+---
 ## 创建了一个demo，写了启动类和controller，访问路由的时候报错：`Whitelabel Error Page`
 #### [ 解决方案 ]
 1. 因为我要返回字符串，所以controller里面要加上@ResponseBody注解。否则会返回一个view。

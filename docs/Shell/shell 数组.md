@@ -1,3 +1,12 @@
+---
+title: shell 数组
+date: 2022-04-29 18:17:26
+permalink: /pages/442672/
+categories:
+  - Shell
+tags:
+  - 
+---
 ## 定义数组
 ```sh
 nums1=(1 2 3 4 5)  # 相当于[1,2,3,4,5]

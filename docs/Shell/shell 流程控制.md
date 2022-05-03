@@ -1,3 +1,12 @@
+---
+title: shell 流程控制
+date: 2022-04-29 18:17:26
+permalink: /pages/52ca87/
+categories:
+  - Shell
+tags:
+  - 
+---
 ## if 语句
 #### 语法
 基本

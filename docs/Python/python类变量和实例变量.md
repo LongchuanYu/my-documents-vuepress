@@ -1,3 +1,12 @@
+---
+title: python类变量和实例变量
+date: 2022-04-17 16:30:18
+permalink: /pages/6a3f38/
+categories:
+  - Python
+tags:
+  - 
+---
 
 ## 类变量（类属性）
 #### 什么是类变量

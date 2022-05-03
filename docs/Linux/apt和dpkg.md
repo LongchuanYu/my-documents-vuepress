@@ -1,3 +1,12 @@
+---
+title: apt和dpkg
+date: 2022-04-17 16:30:18
+permalink: /pages/11fc73/
+categories:
+  - Linux
+tags:
+  - 
+---
 ## APT
 ```
 apt：

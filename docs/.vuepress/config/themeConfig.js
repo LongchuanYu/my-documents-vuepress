@@ -9,7 +9,7 @@ module.exports = {
   logo: '/img/logo.png', // 导航栏logo
   repo: 'LongchuanYu', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
-  lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+  lastUpdated: '上次提交', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
   editLinks: false, // 启用编辑
   editLinkText: '编辑',
@@ -54,7 +54,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/img/avatar.png',
     name: '152斤的壮汉！',
-    slogan: '学全栈的菜鸟！',
+    slogan: '',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

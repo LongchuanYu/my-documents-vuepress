@@ -79,6 +79,7 @@
 </template>
 
 <script>
+import {hiddenPosts} from '../util/postData';
 export default {
   props: {
     category: {
@@ -146,7 +147,9 @@ export default {
         posts = this.$sortPosts
       }
 
-      this.sortPosts = posts.slice((currentPage - 1) * perPage, currentPage * perPage)
+      const filteredPosts = hiddenPosts(posts);
+
+      this.sortPosts = filteredPosts.slice((currentPage - 1) * perPage, currentPage * perPage)
     },
     // getElementToPageTop(el) {
     //   if(el && el.parentElement) {

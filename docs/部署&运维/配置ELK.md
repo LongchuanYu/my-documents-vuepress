@@ -1,3 +1,12 @@
+---
+title: 配置ELK
+date: 2022-04-17 16:30:18
+permalink: /pages/f467e8/
+categories:
+  - 部署&运维
+tags:
+  - 
+---
 ## 概览
 
 ## 1. filebeat

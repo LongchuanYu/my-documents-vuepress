@@ -1,3 +1,12 @@
+---
+title: shell 变量
+date: 2022-04-29 18:17:26
+permalink: /pages/431685/
+categories:
+  - Shell
+tags:
+  - 
+---
 
 
 ## 定义变量

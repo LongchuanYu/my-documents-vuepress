@@ -1,3 +1,12 @@
+---
+title: shell 函数
+date: 2022-04-29 18:17:26
+permalink: /pages/9c31c6/
+categories:
+  - Shell
+tags:
+  - 
+---
 ## 定义一个函数
 ```sh
 function name() {
