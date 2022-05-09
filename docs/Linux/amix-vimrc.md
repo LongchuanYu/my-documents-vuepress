@@ -31,5 +31,21 @@ ctrl+f，搜索CWD下的所有文件
 ```
 
 ```
+#### 如何安装到全局
+按照官网说明安装，执行到`sh /opt/vim_runtime/install_awesome_parameterized.sh /opt/vim_runtime ubuntu lighthouse`的时候会报错：
+```
+/opt/vim_runtime/install_awesome_parameterized.sh: 34: Bad substitution
+```
+解决方案：
+```
+将/usr/bin/sh的软连接改为bash
 
+$ dpkg-reconfigure dash
+
+选择NO
+```
+原因：
+```
+发现sh链接的是dash
+```
 
