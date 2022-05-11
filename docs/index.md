@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 152斤壮汉！的技术手册
+heroText: 152斤壮汉！的笔记
 tagline: 故不积跬步，无以至千里；不积小流，无以成江海。
 # actionText: 立刻进入 →
 # actionLink: /web/

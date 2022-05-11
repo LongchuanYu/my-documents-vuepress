@@ -6,7 +6,7 @@ module.exports = {
   // theme: 'vdoing', // 使用npm包主题
   theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "152斤壮汉！的技术手册", 
+  title: "152斤壮汉！的笔记",
   description: '碎片化的知识记录，高效快捷。',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
