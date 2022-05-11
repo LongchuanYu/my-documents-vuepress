@@ -47,5 +47,17 @@ $ dpkg-reconfigure dash
 原因：
 ```
 发现sh链接的是dash
+#### 如何刷新当前buffer（当前文件在别处被更新的情况）
 ```
 
+```
+
+#### 如何在NERVTree中显示当前打开文件
+```
+
+```
+#### 切换NERDTree路径到CWD路径下
+```
+1. 如果在文件中，输入<leader> cd，切换CWD为当前文件所在的目录；如果实在NERDTree中则跳转到自己的工程目录下输入cd进行切换
+2. 输入<leader> CD，将NERDTree路径切换到CWD下
+```
