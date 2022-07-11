@@ -89,7 +89,15 @@ mysql+pymysql://xyz:...   (正确)
 ```
 2. commit
 ```
-commit之后会调用flush，把更改提交到数据库，同时标志事务结束。
+commit会先调用flush，再把更改提交到数据库，同时标志事务结束。
+```
+总结：
+```
+1. flush会生成primary key
+2. 当前紧接着的session可以查到flush做的增删改的结果
+3. 其他session只有在commit之后，才能查到flush做的增删改结果
+
+ref：https://blog.csdn.net/weixin_38888144/article/details/106076056
 ```
 
 
